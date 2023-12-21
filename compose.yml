@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    image: test
+    ports:
+      - 80:80
+    restart: always
